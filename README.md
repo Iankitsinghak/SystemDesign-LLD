@@ -10,16 +10,15 @@ Whether you want to share **UML diagrams**, **production-ready code**, or **both
 ## 📁 Repository Structure
 
 ```
-projects/
-├── lld/
-│   ├── snake-ladder/
+lld/
+│   ├── statePattern/
 │   │   ├── code/
 │   │   └── uml/
-│   ├── parking-lot/
+│   ├── builderPattern/
 │   │   ├── code/
 │   │   └── uml/
 │   └── ...
-└── system-design/
+└── projects/
     ├── instagram/
     │   ├── architecture/
     │   └── diagrams/
@@ -45,10 +44,10 @@ projects/
    cd System-Design-LLD-Hacktoberfest
    ```
 3. **Pick a section to contribute:**
-   - `projects/lld/<project-name>/code` → Add your LLD code
-   - `projects/lld/<project-name>/uml` → Add UML/class diagrams
-   - `projects/system-design/<project-name>/architecture` → Add your explanation docs
-   - `projects/system-design/<project-name>/diagrams` → Add diagrams or flowcharts
+   - `lld/projects/<project-name>/code` → Add your LLD code
+   - `lld/projects/<project-name>/uml` → Add UML/class diagrams
+   - `lld/<lld-name>/code` → Add your LLD code
+   - `lld/<lld-name>/uml` → Add UML/class diagrams
 4. **Create a new branch for your contribution:**
    ```bash
    git checkout -b add-<project-name>
