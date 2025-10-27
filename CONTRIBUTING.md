@@ -126,25 +126,22 @@ Then, go to your fork on GitHub and open a Pull Request.
 
 **Structure:**
 ```
-projects/
-├── lld/
-│   ├── parking-lot/
-│   │   ├── README.md
-│   │   ├── code.cpp
-│   │   ├── uml.png
-│   │   └── notes.md
-│   └── splitwise/
-│       ├── code.java
-│       ├── uml.png
-│       └── README.md
-└── system-design/
+lld/
+│   ├── statePattern/
+│   │   ├── code/
+│   │   └── uml/
+│   ├── builderPattern/
+│   │   ├── code/
+│   │   └── uml/
+│   └── ...
+└── projects/
     ├── instagram/
-    │   ├── README.md
-    │   ├── architecture.md
-    │   └── diagram.png
-    └── uber/
-        ├── README.md
-        └── diagram.png
+    │   ├── architecture/
+    │   └── diagrams/
+    ├── uber/
+    │   ├── architecture/
+    │   └── diagrams/
+    └── ...
 ```
 
 **Naming Conventions**
